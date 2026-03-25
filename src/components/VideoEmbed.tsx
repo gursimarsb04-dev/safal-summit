@@ -1,13 +1,18 @@
 "use client";
 
-import { useState } from "react";
-import Image from "next/image";
+import { useRef, useState } from "react";
 import SectionLabel from "@/components/SectionLabel";
 
-const VIDEO_ID = "dQw4w9WgXcQ"; // placeholder — replace with actual video ID
-
 export default function VideoEmbed() {
+  const videoRef = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
+
+  const handlePlay = () => {
+    if (videoRef.current) {
+      videoRef.current.play();
+      setPlaying(true);
+    }
+  };
 
   return (
     <section className="bg-navy-800 px-6 py-24 md:py-32">
@@ -20,29 +25,23 @@ export default function VideoEmbed() {
         </div>
 
         <div className="relative aspect-video overflow-hidden rounded-2xl bg-navy-700">
-          {playing ? (
-            <iframe
-              src={`https://www.youtube.com/embed/${VIDEO_ID}?autoplay=1&rel=0`}
-              title="Safal Summit 2024 Experience"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="absolute inset-0 h-full w-full"
-            />
-          ) : (
+          <video
+            ref={videoRef}
+            controls={playing}
+            playsInline
+            preload="metadata"
+            className="absolute inset-0 h-full w-full object-cover"
+          >
+            <source src="/images/recap-video.mp4" type="video/mp4" />
+          </video>
+
+          {!playing && (
             <button
-              onClick={() => setPlaying(true)}
-              className="group absolute inset-0 flex items-center justify-center"
+              onClick={handlePlay}
+              className="group absolute inset-0 z-10 flex items-center justify-center"
               aria-label="Play video"
             >
-              <Image
-                src={`https://img.youtube.com/vi/${VIDEO_ID}/maxresdefault.jpg`}
-                alt="Video thumbnail"
-                fill
-                className="object-cover transition-opacity duration-500 group-hover:opacity-80"
-              />
-
               <div className="absolute inset-0 bg-navy-950/40" />
-
               <div className="relative z-10 flex h-20 w-20 items-center justify-center rounded-full border-2 border-gold bg-gold/10 transition-colors duration-300 group-hover:bg-gold/20">
                 <svg
                   viewBox="0 0 24 24"

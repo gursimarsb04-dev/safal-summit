@@ -92,24 +92,24 @@ export const CREDIBILITY_STATS = [
 
 export const TESTIMONIALS = [
   {
-    quote: "Safal Summit was a transformative experience. The connections I made here have shaped my career trajectory.",
-    name: "Attendee Name",
-    title: "Software Engineer",
-    company: "Google",
+    quote: "Mentoring at Safal reminded me why representation matters. Seeing the next generation of Sikh professionals step into their power was the highlight of my year.",
+    name: "Mentor",
+    title: "Safal Summit Mentor",
+    company: "",
     image: "/images/testimonials/person1.jpg",
   },
   {
-    quote: "The caliber of speakers and the authenticity of the community is unlike anything I've experienced.",
-    name: "Attendee Name",
-    title: "Product Manager",
-    company: "Microsoft",
+    quote: "The mentorship circles at Safal aren't surface-level networking. They're real conversations about navigating identity, ambition, and leadership.",
+    name: "Mentor",
+    title: "Safal Summit Mentor",
+    company: "",
     image: "/images/testimonials/person2.jpg",
   },
   {
-    quote: "This isn't just a conference — it's a movement. I left feeling empowered and connected.",
-    name: "Attendee Name",
-    title: "Management Consultant",
-    company: "McKinsey",
+    quote: "What sets Safal apart is the authenticity. Every mentor and mentee shows up ready to give and grow. It's community-building at its finest.",
+    name: "Mentor",
+    title: "Safal Summit Mentor",
+    company: "",
     image: "/images/testimonials/person3.jpg",
   },
 ];
