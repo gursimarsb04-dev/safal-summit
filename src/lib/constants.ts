@@ -19,10 +19,10 @@ export const NAV_LINKS = [
 ];
 
 export const STATS = [
-  { value: 500, suffix: "+", label: "Attendees" },
-  { value: 12, suffix: "", label: "Speakers" },
-  { value: 24, suffix: "", label: "Talks" },
-  { value: 10, suffix: "+", label: "Workshops" },
+  { value: 187, suffix: "+", label: "Attendees" },
+  { value: 38, suffix: "+", label: "Mentors" },
+  { value: 20, suffix: "+", label: "States Represented" },
+  { value: 95, suffix: "%", label: "Would Recommend" },
 ];
 
 export const FAQ_ITEMS = [

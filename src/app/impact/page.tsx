@@ -8,10 +8,10 @@ export const metadata: Metadata = {
 };
 
 const IMPACT_STATS = [
-  { value: "1000+", label: "Professionals" },
-  { value: "50+", label: "Cities" },
-  { value: "3", label: "Summits" },
-  { value: "100+", label: "Companies" },
+  { value: "187+", label: "Attendees" },
+  { value: "20+", label: "States Represented" },
+  { value: "5", label: "Industries Covered" },
+  { value: "90%", label: "Would Recommend" },
 ];
 
 export default function ImpactPage() {
