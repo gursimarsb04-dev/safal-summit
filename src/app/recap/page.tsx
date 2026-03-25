@@ -24,7 +24,7 @@ export default function RecapPage() {
             RECAP.
           </h1>
           <p className="mt-6 text-xl italic text-white/60 max-w-2xl mx-auto">
-            A look back at the moments that defined us.
+            The definitive gathering for Sikh excellence.
           </p>
         </div>
       </section>
@@ -35,13 +35,13 @@ export default function RecapPage() {
           <div>
             <SectionLabel text="THE EXPERIENCE" />
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
-              Three Days That Changed Everything
+              At the heart of our Sikh community.
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-white/60">
-              Safal Summit 2024 brought together hundreds of Sikh professionals,
-              entrepreneurs, and changemakers for an unforgettable experience of
-              growth, connection, and purpose. From powerful keynotes to intimate
-              strategy sessions, every moment was designed to elevate.
+              Last year&apos;s summit brought together students, professionals, and
+              community partners for a full day of talks, hands-on sessions, and
+              real conversations. We focused on practical skills, honest stories,
+              and building connections that continued well beyond the event.
             </p>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-navy-700">
@@ -101,7 +101,7 @@ export default function RecapPage() {
                   The Fireside Keynotes
                 </h3>
                 <p className="mt-2 text-sm text-white/60">
-                  Intimate conversations with industry-defining leaders.
+                  High-energy keynotes, audience Q&amp;A, and standout stories were the most talked-about parts of the day.
                 </p>
               </div>
             </div>
@@ -120,7 +120,7 @@ export default function RecapPage() {
                   Tactical Strategy Sessions
                 </h3>
                 <p className="mt-2 text-white/60">
-                  Hands-on workshops that sharpened skills and sparked new ideas.
+                  Workshops were interactive and focused on real takeaways — not just inspiration.
                 </p>
               </div>
             </div>

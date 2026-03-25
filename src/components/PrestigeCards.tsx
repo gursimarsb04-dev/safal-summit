@@ -9,9 +9,9 @@ export default function PrestigeCards() {
         <div className="mb-14 flex flex-col items-center gap-4 text-center">
           <SectionLabel text="WHAT TO EXPECT" />
           <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Beyond networking.
+            What to expect
             <br />
-            <span className="text-white/60">A culture of prestige.</span>
+            <span className="text-white/60">Join us for a three day summit designed to spark ideas, forge partnerships, and shape what&apos;s next.</span>
           </h2>
         </div>
 

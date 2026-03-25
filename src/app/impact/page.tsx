@@ -24,7 +24,7 @@ export default function ImpactPage() {
             IMPACT.
           </h1>
           <p className="mt-6 text-xl text-white/60 max-w-2xl mx-auto">
-            Building a movement that elevates the Sikh professional collective.
+            Building the next generation of Sikh leaders.
           </p>
         </div>
       </section>
@@ -37,12 +37,11 @@ export default function ImpactPage() {
             Elevating the Sikh Professional Collective
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-white/60">
-            Safal Network exists to connect, empower, and uplift Sikh
-            professionals worldwide. Through curated summits, mentorship
-            programs, and an ever-growing network, we are building the
-            infrastructure for collective excellence. Our mission is to ensure
-            every Sikh professional has access to the community, resources, and
-            opportunities they need to thrive.
+            Safal empowers Sikhs through mentorship, community, and leadership
+            development, rooted in Gurmat principles. By connecting established
+            Sikh professionals with the next generation, we help participants
+            grow with purpose and strengthen Sikh representation across
+            industries and leadership.
           </p>
         </div>
       </section>

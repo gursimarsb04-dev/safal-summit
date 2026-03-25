@@ -1,11 +1,15 @@
 export const SITE = {
   name: "Safal Summit",
   tagline: "Where Sikh students and professionals come together to grow, connect, and lead with purpose.",
+  description: "Safal empowers Sikh students and professionals through mentorship, networking, and leadership development grounded in Gurmat values.",
+  vision: "We envision a vibrant Sikh professional diaspora — confident in identity, committed to Seva, and represented across industries and leadership roles.",
+  mission: "Safal empowers Sikhs through mentorship, community, and leadership development, rooted in Gurmat principles. By connecting established Sikh professionals with the next generation, we help participants grow with purpose and strengthen Sikh representation across industries and leadership.",
   date: "June 19-21, 2026",
   venue: "World Trade Center",
   city: "NYC",
   network: "Safal Network",
   networkTagline: "Elevating Sikh Professional Excellence",
+  origin: "Safal began at the Anandpur Institute Non-Profit Accelerator Bootcamp, when SikhTeens and the United Sikh Movement teamed up after recognizing a gap: plenty of Sikh talent and expertise, but too little representation in key industries and leadership roles.",
 };
 
 export const NAV_LINKS = [
@@ -17,46 +21,54 @@ export const NAV_LINKS = [
 export const STATS = [
   { value: 500, suffix: "+", label: "Attendees" },
   { value: 12, suffix: "", label: "Speakers" },
-  { value: 24, suffix: "", label: "Sessions" },
-  { value: 3, suffix: "", label: "Days" },
+  { value: 24, suffix: "", label: "Talks" },
+  { value: 10, suffix: "+", label: "Workshops" },
 ];
 
 export const FAQ_ITEMS = [
   {
-    question: "How do I become a member?",
-    answer: "Membership to Safal Network is by application. Apply through our summit registration to join our community of Sikh professionals.",
+    question: "Who is Safal for?",
+    answer: "Safal is for ambitious Sikh students and early-career professionals — builders, creatives, and technologists — who want mentorship, community, and career growth.",
   },
   {
-    question: "What are the upcoming events?",
-    answer: "Safal Summit 2026 takes place June 19-21 at the World Trade Center in NYC. Follow us on social media for additional event announcements.",
+    question: "When and how did Safal start?",
+    answer: "Safal began at the Anandpur Institute Non-Profit Accelerator Bootcamp, when SikhTeens and the United Sikh Movement teamed up after recognizing a gap: plenty of Sikh talent and expertise, but too little representation in key industries and leadership roles.",
   },
   {
-    question: "Can I attend if I'm not Sikh?",
-    answer: "Safal Summit welcomes allies and supporters of the Sikh professional community. Our goal is to foster inclusive excellence.",
+    question: "What should I wear and bring?",
+    answer: "Business-casual attire works well. Bring a notebook or laptop for workshops, and an updated resume/portfolio for mentor or networking sessions.",
   },
   {
-    question: "What is the refund/cancellation policy?",
-    answer: "Please review our terms of service for full details on refunds and cancellations. Contact us directly for specific situations.",
+    question: "How do I register?",
+    answer: "Register through our website while tickets last. Any refunds or transfers follow the policy shown at checkout.",
+  },
+  {
+    question: "What's Safal's Vision?",
+    answer: "We envision a vibrant Sikh professional diaspora — confident in identity, committed to Seva, and represented across industries and leadership roles.",
+  },
+  {
+    question: "How can I make the most of networking?",
+    answer: "Safal offers curated meetups, interest-based breakout groups, and a custom app to connect with other attendees.",
   },
 ];
 
 export const EXPECT_CARDS = [
   {
-    title: "Visionary Insights",
+    title: "Leadership Talks",
     category: "KEYNOTES",
-    description: "Learn from leaders who are shaping industries and redefining what's possible.",
+    description: "Practical insights from Sikh professionals navigating careers, leadership, and representation.",
     image: "/images/cards/keynotes.jpg",
   },
   {
-    title: "Tactical Strategy Sessions",
+    title: "Career Workshops",
     category: "WORKSHOPS",
-    description: "Hands-on workshops designed to sharpen your professional toolkit.",
+    description: "Build confidence with actionable strategies you can apply immediately — no fluff.",
     image: "/images/cards/workshops.jpg",
   },
   {
-    title: "Global Connections",
+    title: "Purposeful Networking",
     category: "NETWORKING",
-    description: "Build relationships with ambitious professionals from around the world.",
+    description: "Connect through guided circles focused on mentorship, collaboration, and next steps.",
     image: "/images/cards/networking.jpg",
   },
   {
@@ -103,6 +115,6 @@ export const TESTIMONIALS = [
 ];
 
 export const SOCIAL_LINKS = {
-  linkedin: "https://linkedin.com/company/safalnetwork",
-  instagram: "https://instagram.com/safalnetwork",
+  linkedin: "https://linkedin.com/company/safalsummit",
+  instagram: "https://instagram.com/safal.network",
 };
