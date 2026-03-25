@@ -13,6 +13,7 @@ export default function Hero() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       >
+        <source src="/images/hero-bg.mp4" type="video/mp4" />
         <source src="/images/hero-bg.mov" type="video/quicktime" />
       </video>
 
