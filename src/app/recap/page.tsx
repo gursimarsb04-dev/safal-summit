@@ -55,6 +55,29 @@ export default function RecapPage() {
         </div>
       </section>
 
+      {/* The Venue */}
+      <section className="px-6 py-24 bg-navy-800">
+        <div className="mx-auto max-w-6xl text-center">
+          <SectionLabel text="THE VENUE" />
+          <h2 className="mt-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
+            World Trade Center, NYC
+          </h2>
+          <p className="mt-6 text-lg leading-relaxed text-white/60 max-w-2xl mx-auto">
+            Set in the heart of Manhattan, the World Trade Center provided a
+            landmark backdrop for the summit — a space that matches the scale of
+            our community&apos;s ambition.
+          </p>
+          <div className="relative mt-10 aspect-video overflow-hidden rounded-2xl">
+            <Image
+              src="/images/recap/experience.jpg"
+              alt="World Trade Center venue"
+              fill
+              className="object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Video */}
       <VideoEmbed />
 

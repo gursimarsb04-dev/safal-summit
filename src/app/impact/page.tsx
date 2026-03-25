@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import SectionLabel from "@/components/SectionLabel";
 import FinalCTA from "@/components/FinalCTA";
+import BackedBy from "@/components/BackedBy";
 
 export const metadata: Metadata = {
   title: "Impact — Safal Summit",
@@ -29,6 +30,28 @@ export default function ImpactPage() {
         </div>
       </section>
 
+      {/* Our Origin */}
+      <section className="px-6 py-24 bg-navy-900">
+        <div className="mx-auto max-w-3xl text-center">
+          <SectionLabel text="OUR STORY" />
+          <h2 className="mt-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
+            How it started.
+          </h2>
+          <p className="mt-6 text-lg leading-relaxed text-white/60">
+            Safal began at the Anandpur Institute Non-Profit Accelerator
+            Bootcamp, when SikhTeens and the United Sikh Movement teamed up
+            after recognizing a gap: plenty of Sikh talent and expertise, but
+            too little representation in key industries and leadership roles.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-white/60">
+            What started as a collaboration between two student organizations
+            has grown into a movement &mdash; connecting Sikh professionals
+            across the country through mentorship, leadership development, and a
+            shared commitment to Seva.
+          </p>
+        </div>
+      </section>
+
       {/* Mission Narrative */}
       <section className="px-6 py-24 bg-navy-800">
         <div className="mx-auto max-w-3xl text-center">
@@ -43,6 +66,35 @@ export default function ImpactPage() {
             grow with purpose and strengthen Sikh representation across
             industries and leadership.
           </p>
+        </div>
+      </section>
+
+      {/* Industries Represented */}
+      <section className="px-6 py-24 bg-navy-900">
+        <div className="mx-auto max-w-5xl text-center">
+          <SectionLabel text="INDUSTRIES" />
+          <h2 className="mt-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
+            Where our community leads.
+          </h2>
+          <div className="mt-12 grid grid-cols-2 gap-4 md:flex md:flex-wrap md:justify-center">
+            {[
+              { icon: "💻", name: "Tech & Startups" },
+              { icon: "🏥", name: "Healthcare" },
+              { icon: "💼", name: "Finance & Consulting" },
+              { icon: "⚖️", name: "Law" },
+              { icon: "🎨", name: "Arts & Creative" },
+            ].map((industry) => (
+              <div
+                key={industry.name}
+                className="min-w-[140px] rounded-xl bg-navy-700 px-6 py-8 text-center"
+              >
+                <p className="text-2xl mb-2">{industry.icon}</p>
+                <p className="text-sm font-medium text-white">
+                  {industry.name}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -119,6 +171,9 @@ export default function ImpactPage() {
           </div>
         </div>
       </section>
+
+      {/* Backed By */}
+      <BackedBy />
 
       {/* Final CTA */}
       <FinalCTA />

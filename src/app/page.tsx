@@ -2,10 +2,11 @@ import Hero from "@/components/Hero";
 import StatsBar from "@/components/StatsBar";
 import PrestigeCards from "@/components/PrestigeCards";
 import VideoEmbed from "@/components/VideoEmbed";
-import Credibility from "@/components/Credibility";
-import Testimonials from "@/components/Testimonials";
+import MentorSpotlight from "@/components/MentorSpotlight";
+import EmailCTA from "@/components/EmailCTA";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
+import BackedBy from "@/components/BackedBy";
 
 export default function Home() {
   return (
@@ -14,10 +15,11 @@ export default function Home() {
       <StatsBar />
       <PrestigeCards />
       <VideoEmbed />
-      <Credibility />
-      <Testimonials />
+      <MentorSpotlight />
+      <EmailCTA />
       <FAQ />
       <FinalCTA />
+      <BackedBy />
     </>
   );
 }

@@ -1,9 +1,24 @@
+"use client";
+
 import Link from "next/link";
 import { SITE, SOCIAL_LINKS } from "@/lib/constants";
 
 export default function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
-    <footer className="bg-navy-950 border-t border-white/10 px-8 py-12">
+    <footer className="relative bg-navy-950 border-t border-white/10 px-8 py-12">
+      {/* Back to top button */}
+      <button
+        onClick={scrollToTop}
+        aria-label="Back to top"
+        className="absolute top-6 right-8 flex items-center justify-center w-10 h-10 rounded-full border border-white/20 text-white/40 hover:text-gold hover:border-gold transition-colors"
+      >
+        &uarr;
+      </button>
+
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="text-center md:text-left">
           <p className="text-white font-semibold">{SITE.network}</p>

@@ -19,13 +19,13 @@ export default function PrestigeCards() {
           {EXPECT_CARDS.map((card) => (
             <div
               key={card.title}
-              className="group relative h-72 overflow-hidden rounded-xl"
+              className="group relative h-72 overflow-hidden rounded-xl transition-transform duration-300 hover:scale-[1.02]"
             >
               <Image
                 src={card.image}
                 alt={card.title}
                 fill
-                className="object-cover transition-opacity duration-500 group-hover:opacity-80"
+                className="object-cover transition-all duration-500 group-hover:scale-105 group-hover:opacity-80"
               />
 
               {/* Gradient overlay */}
