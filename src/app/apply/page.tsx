@@ -42,7 +42,7 @@ export default function ApplyPage() {
           <div className="lg:col-span-2">
             <div className="overflow-hidden rounded-xl bg-navy-700">
               <iframe
-                src="https://safalnetwork.typeform.com/to/TYPEFORM_ID"
+                src="https://form.typeform.com/to/AfaDhdtu"
                 title="Safal Summit 2026 Application"
                 className="h-[700px] w-full border-0"
                 allow="camera; microphone; autoplay; encrypted-media;"
