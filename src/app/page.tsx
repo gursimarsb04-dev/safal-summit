@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import About from "@/components/About";
 import StatsBar from "@/components/StatsBar";
 import PrestigeCards from "@/components/PrestigeCards";
 import VideoEmbed from "@/components/VideoEmbed";
@@ -12,7 +11,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <About />
       <StatsBar />
       <PrestigeCards />
       <VideoEmbed />
