@@ -1,6 +1,11 @@
+import Image from "next/image";
 import SectionLabel from "./SectionLabel";
 
-const partners = ["Anandpur Institute", "SikhTeens", "United Sikh Movement"];
+const partners = [
+  { name: "SikhTeens", logo: "/images/logos/sikhteens.jpg" },
+  { name: "United Sikh Movement", logo: "/images/logos/usm.png" },
+  { name: "Anandpur Institute", logo: "/images/logos/anandpur.png" },
+];
 
 export default function BackedBy() {
   return (
@@ -8,14 +13,20 @@ export default function BackedBy() {
       <div className="max-w-4xl mx-auto text-center">
         <SectionLabel text="BACKED BY" />
 
-        <div className="flex flex-wrap justify-center gap-3 mt-6">
-          {partners.map((name) => (
-            <span
-              key={name}
-              className="px-4 py-2 bg-navy-900 rounded-full text-white/40 text-xs font-medium border border-white/5"
+        <div className="flex flex-wrap justify-center items-center gap-8 mt-8">
+          {partners.map((partner) => (
+            <div
+              key={partner.name}
+              className="flex items-center justify-center h-12 opacity-60 hover:opacity-100 transition-opacity"
             >
-              {name}
-            </span>
+              <Image
+                src={partner.logo}
+                alt={partner.name}
+                width={120}
+                height={48}
+                className="h-10 w-auto object-contain brightness-0 invert"
+              />
+            </div>
           ))}
         </div>
       </div>
