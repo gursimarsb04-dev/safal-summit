@@ -17,11 +17,18 @@ const mentors = [
       "The mentorship circles aren\u2019t surface-level \u2014 they\u2019re real conversations about identity, ambition, and leadership.",
   },
   {
-    name: "Chetveer Singh",
-    role: "Mentor & Sponsor",
+    name: "Gurjote Singh",
+    role: "Keynote Speaker & Sponsor",
     image: "/images/testimonials/person3.jpg",
     quote:
-      "Mission accomplished. The mentor-mentee networking delivered exactly what this community needed.",
+      "Exceeded expectations. The energy and the caliber of people in the room proved this community is ready to scale.",
+  },
+  {
+    name: "Navi Singh",
+    role: "Keynote Speaker",
+    image: "/images/testimonials/person4.jpg",
+    quote:
+      "A strong first conference with clear demand. The quality of the venue, speakers, and mentees speaks for itself.",
   },
 ];
 
@@ -34,7 +41,7 @@ export default function MentorSpotlight() {
           Guided by the best.
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {mentors.map((mentor) => (
             <div
               key={mentor.name}
