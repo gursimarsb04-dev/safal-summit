@@ -32,9 +32,9 @@ export default function MentorSpotlight() {
   return (
     <section className="bg-navy-800 py-24 px-6">
       <div className="max-w-5xl mx-auto text-center">
-        <SectionLabel text="MEET OUR MENTORS" />
+        <SectionLabel text="OUR COMMUNITY" />
         <h2 className="text-3xl md:text-4xl font-bold mt-4 mb-16">
-          Guided by the best.
+          Hear from the community.
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
