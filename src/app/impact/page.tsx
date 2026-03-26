@@ -30,41 +30,19 @@ export default function ImpactPage() {
         </div>
       </section>
 
-      {/* Our Origin */}
-      <section className="px-6 py-24 bg-navy-900">
+      {/* Our Story + Mission (combined) */}
+      <section className="px-6 py-24 bg-navy-800">
         <div className="mx-auto max-w-3xl text-center">
           <SectionLabel text="OUR STORY" />
           <h2 className="mt-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
-            How it started.
+            Born from a gap. Built for impact.
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-white/60">
-            Safal began at the Anandpur Institute Non-Profit Accelerator
-            Bootcamp, when SikhTeens and the United Sikh Movement teamed up
-            after recognizing a gap: plenty of Sikh talent and expertise, but
-            too little representation in key industries and leadership roles.
-          </p>
-          <p className="mt-4 text-lg leading-relaxed text-white/60">
-            What started as a collaboration between two student organizations
-            has grown into a movement &mdash; connecting Sikh professionals
-            across the country through mentorship, leadership development, and a
-            shared commitment to Seva.
-          </p>
-        </div>
-      </section>
-
-      {/* Mission Narrative */}
-      <section className="px-6 py-24 bg-navy-800">
-        <div className="mx-auto max-w-3xl text-center">
-          <SectionLabel text="OUR MISSION" />
-          <h2 className="mt-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
-            Elevating the Sikh Professional Collective
-          </h2>
-          <p className="mt-6 text-lg leading-relaxed text-white/60">
-            Safal empowers Sikhs through mentorship, community, and leadership
-            development, rooted in Gurmat principles. By connecting established
-            Sikh professionals with the next generation, we help participants
-            grow with purpose and strengthen Sikh representation across
-            industries and leadership.
+            Safal started when SikhTeens and the United Sikh Movement recognized
+            a gap: plenty of Sikh talent, but too little representation in
+            leadership. Rooted in Gurmat principles, we connect established
+            professionals with the next generation through mentorship and
+            community.
           </p>
         </div>
       </section>

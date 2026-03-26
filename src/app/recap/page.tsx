@@ -67,14 +67,6 @@ export default function RecapPage() {
             landmark backdrop for the summit — a space that matches the scale of
             our community&apos;s ambition.
           </p>
-          <div className="relative mt-10 aspect-video overflow-hidden rounded-2xl">
-            <Image
-              src="/images/recap/experience.jpg"
-              alt="World Trade Center venue"
-              fill
-              className="object-cover"
-            />
-          </div>
         </div>
       </section>
 
