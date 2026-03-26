@@ -29,7 +29,7 @@ export default function Hero() {
 
       {/* Fallback static image */}
       <Image
-        src="/images/hero.jpg"
+        src="/images/hero-photo.jpg"
         alt=""
         fill
         priority
