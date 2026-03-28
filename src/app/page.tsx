@@ -2,7 +2,7 @@ import Hero from "@/components/Hero";
 import StatsBar from "@/components/StatsBar";
 import PrestigeCards from "@/components/PrestigeCards";
 import VideoEmbed from "@/components/VideoEmbed";
-import MentorSpotlight from "@/components/MentorSpotlight";
+import SocialProof from "@/components/SocialProof";
 import EmailCTA from "@/components/EmailCTA";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
@@ -15,7 +15,7 @@ export default function Home() {
       <StatsBar />
       <PrestigeCards />
       <VideoEmbed />
-      <MentorSpotlight />
+      <SocialProof />
       <EmailCTA />
       <FAQ />
       <FinalCTA />
